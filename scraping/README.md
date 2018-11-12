@@ -2,13 +2,15 @@
 
 # Group project
 **Proposal:** Run scrapy spiders as a daemon process to scrape 
-1) tweets, 2) Reddit and 3) Quoara and store in PostgreSQL 
+1) tweets, 2) Reddit and 3) Quora and store in PostgreSQL 
 database.
 
 ## TODO
 - select name
 - discuss trigger mechanism
-
+- sketch out database schema
+- discuss high level API desire (to pull out of database)
+- who/what is the consumer of our API- REST? CSV files?
 
 
 # Examples
