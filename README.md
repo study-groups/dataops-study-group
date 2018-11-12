@@ -1,2 +1,27 @@
 # dataops-study-group
-Resources for studying data ops
+Resources for studying DataOps based on the Linux operating system.
+
+# Topics
+- Scraping
+- Hosting
+- Ingestion
+- Analysis
+- Delivery
+- Models in the cloud
+- Data warehousing
+- Data engineering
+
+# Platforms
+- Digital Ocean Droplets
+- AWS
+
+# Podcasts
+- [Defining DataOps with Chris Bergh ](https://overcast.fm/+H1YOCCBXM)
+- [DataOps with Chris Bergh ](https://softwareengineeringdaily.com/2018/08/29/dataops-with-christopher-bergh/)
+
+
+# Wikipedia 
+- https://en.wikipedia.org/wiki/DataOps
+- https://en.wikipedia.org/wiki/DevOps
+- https://en.wikipedia.org/wiki/Agile_software_development
+- https://en.wikipedia.org/wiki/W._Edwards_Deming
