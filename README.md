@@ -3,7 +3,7 @@ Resources for studying DataOps based on the Linux operating system.
 
 # Topics
 - Scraping
-- Hosting
+- [Hosting](./hosting)
 - Ingestion
 - Analysis
 - Delivery
