@@ -12,8 +12,8 @@ Resources for studying DataOps based on the Linux operating system.
 - Data engineering
 
 # Platforms
-- Digital Ocean Droplets
-- AWS
+- [Digital Ocean Droplets](https://digitalocean.com)
+- [AWS](https://aws.amazon.com/)
 
 # Podcasts
 - [Defining DataOps with Chris Bergh ](https://overcast.fm/+H1YOCCBXM)
