@@ -17,7 +17,6 @@ Resources for studying DataOps based on the Linux operating system.
 
 # Podcasts
 - [Defining DataOps with Chris Bergh ](https://overcast.fm/+H1YOCCBXM)
-- [DataOps with Chris Bergh](https://softwareengineeringdaily.com/2018/08/29/da
-taops-with-christopher-bergh/)
+- [DataOps with Chris Bergh](https://softwareengineeringdaily.com/2018/08/29/dataops-with-christopher-bergh/)
 
 
