@@ -15,7 +15,6 @@ class ScrapeItem(scrapy.Item):
     pass
 
 class RedditForum(Item):
-    """Livingsocial container (dictionary-like object) for scraped data"""
     title = Field()
     link = Field()
     content = Field()
