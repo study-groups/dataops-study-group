@@ -25,3 +25,5 @@ Resources for studying DataOps based on the Linux operating system.
 # References
   - [hypervisor tech that powers the cloud](https://en.wikipedia.org/wiki/Hypervisor)
   - [12 factors app](https://12factor.net/) the philosohpy behind DevOps, and now, DataOps
+
+
