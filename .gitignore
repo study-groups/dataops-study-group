@@ -109,3 +109,6 @@ Pipfile.lock
 
 # Pycharm
 .idea/
+
+# Local files
+local.py
