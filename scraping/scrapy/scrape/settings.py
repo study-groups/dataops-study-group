@@ -12,7 +12,7 @@
 BOT_NAME = 'nlp_data_science'
 
 SPIDER_MODULES = ['scrape.spiders']
-NEWSPIDER_MODULE = 'scrape.spiders'
+# NEWSPIDER_MODULE = 'scrape.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

@@ -16,7 +16,7 @@ def db_connect():
     return create_engine(URL(**DATABASE))
 
 
-def create_deals_table(engine):
+def create_reddit_table(engine):
     """"""
     DeclarativeBase.metadata.create_all(engine)
 
@@ -27,4 +27,4 @@ class RedditModel(DeclarativeBase):
 
     id = Column(Integer, primary_key=True)
     title = Column('title', String)
-    domain = Column('link', String, nullable=True)
+    domain = Column('domain', String, nullable=True)

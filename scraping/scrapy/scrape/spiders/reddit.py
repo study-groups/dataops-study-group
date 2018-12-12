@@ -24,12 +24,12 @@ class QuotesSpider(scrapy.Spider):
 
         r = RedditForum(title=t, domain=d)
 
-        print(r['title'])
+        yield r
 
 
 
-
-        filename = 'red-%s.html' % page
-        with open(filename, 'wb') as f:
-            f.write(response.body)
-        self.log('Saved file %s' % filename)
+        #
+        # filename = 'red-%s.html' % page
+        # with open(filename, 'wb') as f:
+        #     f.write(response.body)
+        # self.log('Saved file %s' % filename)
