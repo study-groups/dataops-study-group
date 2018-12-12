@@ -1,12 +1,12 @@
 import scrapy
-
+from ..items import RedditForum
 
 class QuotesSpider(scrapy.Spider):
     name = "reddit"
 
     def start_requests(self):
         urls = [
-            'https://old.reddit.com/search?q=nlp&restrict_sr=&sort=relevance&t=all',
+            #'https://old.reddit.com/search?q=nlp&restrict_sr=&sort=relevance&t=all',
             'https://old.reddit.com/r/LanguageTechnology/comments/a1w7xk/efforts_to_crowdsource_linguistic_data/?st=jpbm595d&sh=e728b5b6',
         ]
 
@@ -17,8 +17,18 @@ class QuotesSpider(scrapy.Spider):
             yield scrapy.Request(url=url, headers=headers, callback=self.parse)
 
     def parse(self, response):
-        print(response.body)
         page = response.url.split("/")[-2]
+
+        t = response.xpath("//*[@class='title may-blank ']/text()").extract_first()
+        d = response.xpath("//span[@class='domain']/a/text()").extract_first().split('.')[-1]
+
+        r = RedditForum(title=t, domain=d)
+
+        print(r['title'])
+
+
+
+
         filename = 'red-%s.html' % page
         with open(filename, 'wb') as f:
             f.write(response.body)

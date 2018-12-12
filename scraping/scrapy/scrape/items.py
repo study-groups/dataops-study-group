@@ -16,5 +16,4 @@ class ScrapeItem(scrapy.Item):
 
 class RedditForum(Item):
     title = Field()
-    link = Field()
-    content = Field()
+    domain = Field()

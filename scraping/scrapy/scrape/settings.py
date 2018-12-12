@@ -18,6 +18,22 @@ NEWSPIDER_MODULE = 'scrape.spiders'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'nlp_data_science_project'
 
+ITEM_PIPELINES = {
+    'scrape.pipelines.nlp_data_science_pipeline': 300,
+}
+
+# ------------------------------
+# local settings for database saved in local.py
+# DATABASE = {
+#     'drivername': 'postgres',
+#     'host': 'localhost',
+#     'port': '**',
+#     'username': '**',
+#     'password': '**',
+#     'database': '**'
+# }
+# ------------------------------
+
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
@@ -40,10 +56,10 @@ DOWNLOAD_DELAY = 5
 #TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
-#DEFAULT_REQUEST_HEADERS = {
+DEFAULT_REQUEST_HEADERS = {
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'Accept-Language': 'en',
-#}
+  'Accept-Language': 'en'
+}
 
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
