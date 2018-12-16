@@ -1,3 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#define BUFLEN 2048
+
+struct index {
+   uint64_t id;
+   uint64_t startLine;
+   uint64_t endLine;
+   uint64_t numLines;
+   uint64_t startByte;
+   uint64_t numBytes;
+};
+
+const char* getfield(char* line, int num)
+{
+    const char* tok;
+    for (tok = strtok(line, ",");
+            tok && *tok;
+            tok = strtok(NULL, ",\n"))
+    {
+        if (!--num)
+            return tok;
+    }
+    return NULL;
+}
 int main(int argc, char **argv, char **env)
 {
     FILE* fp = fopen("./test_set.csv", "r");
