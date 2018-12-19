@@ -14,5 +14,10 @@ database.
 
 
 # Examples
+- [Scrapy --> Postgresql Tutorial](http://newcoder.io/scrape/intro/)
 - [scrapy docs tutorial](https://doc.scrapy.org/en/latest/intro/tutorial.html)
 - [Using Scrapy to build your own Dataset](https://towardsdatascience.com/using-scrapy-to-build-your-own-dataset-64ea2d7d4673)
+
+# Scraping
+- [User-Agent Tut](https://www.scrapehero.com/how-to-fake-and-rotate-user-agents-using-python-3/)
+- [Prevent Getting Blocked](https://www.scrapehero.com/how-to-prevent-getting-blacklisted-while-scraping/)

@@ -102,3 +102,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Pycharm
+.idea/
+
+# Local files
+local.py
