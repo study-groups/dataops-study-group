@@ -14,8 +14,14 @@ config-help(){
 }
 
 config-update-os(){
-  apt update
-  apt -y upgrade
+  apt-get update
+  apt-get -y upgrade
+  apt-get -y purge python3.6
+  apt-get -y purge python
+  apt-get -y install python3.6
+  apt-get -y install python3-pip
+  pip3  install scrapy
+  pip3 install SQLAlchemy
 }
 
 config-add-user(){
@@ -35,10 +41,32 @@ config-copy-keys(){
   chmod 0600 /home/$NEWUSER/.ssh/authorized_keys
 }
 
+config-install-apps(){
+  mkdir /home/$NEWUSER/src/
+  mkdir /home/$NEWUSER/apps/
+  chown $NEWUSER:$NEWUSER  /home/$NEWUSER/src
+  chown $NEWUSER:$NEWUSER  /home/$NEWUSER/apps
+  cd /home/$NEWUSER/src/
+  git clone https://github.com/study-groups/dataops-study-group.git
+  chown $NEWUSER:$NEWUSER /home/$NEWUSER/src
+  cp -r /home/$NEWUSER/src/dataops-study-group\
+/scraping/scrapy /home/$NEWUSER/apps
+  chown $NEWUSER:$NEWUER /home/$NEWUSER/apps
+  cd ~
+}
+
+config-start-apps(){
+  su $NEWUSER
+  cd /home/$NEWUSER/apps/scrapy
+  scrapy check
+}
+
 # This local functions will be called. Comment out as needed.
 config-init(){
   config-update-os
   config-add-user
   config-copy-keys
+  config-install-apps
+  config-start-apps
   config-security
 }

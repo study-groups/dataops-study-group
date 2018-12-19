@@ -20,7 +20,7 @@ dotool-info(){
   doctl account get
 }
 
-dotool-list-keys(){
+dotool-keys(){
   doctl compute ssh-key list
 }
 
@@ -31,8 +31,8 @@ dotool-list(){
 
 dotool-create(){
   doctl compute droplet create $1 \
-        --size 512mb  \
-        --image ubuntu-16-04-x64 \
+        --size 1gb  \
+        --image ubuntu-18-04-x64 \
         --region sfo2 \
         --ssh-keys $2
 }
@@ -62,11 +62,17 @@ dotool-cp(){
 }
 
 dotool-config(){
-  dotool-cp $1 $2 $1 # $1=config-file $2=droplet-name
-  ssh root@$(dotool-name-to-ip $2) "\
-      source $1 && \
-      config-init
-"
+  CONFIG=${2:-config.sh}    
+  dotool-cp $CONFIG $1 $CONFIG # $2=config-file $1=droplet-name
+  ssh root@$(dotool-name-to-ip $1) '\
+      #source $CONFIG
+      #config-init
+      echo "Log in to remote host"
+      echo "---------------------"
+      echo "local> dotool login <droplet>"
+      echo "remote> source config.sh"
+      echo "remote> config-init"
+'
 }
 
 dotool-status(){
