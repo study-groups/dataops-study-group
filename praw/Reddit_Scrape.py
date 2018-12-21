@@ -12,12 +12,12 @@ reddit = praw.Reddit(client_id=os.environ.get('client_id'),
 subreddits = ['aws', 'bigdatajobs', 'computervision', 'datacleaning',
               'dataisbeautiful', 'datasciencejobs', 'datasciencenews',
               'deeplearning', 'deeplearningpapers', 'django',
-              'djangolearning', 'flask', 'git', 'intventwithpython',
+              'djangolearning', 'flask', 'git', 'inventwithpython',
               'learnmachinelearning', 'learnmath', 'learnpython',
               'linux4noobs', 'linuxmasterrace', 'linuxquestions',
-              'mlclass', 'mlpapers', 'mlquestions', 'nueral_networks',
+              'mlclass', 'mlpapers', 'mlquestions', 'neuralnetworks',
               'pystats', 'python', 'pythoncoding', 'pythontips', 'pytorch',
-              'spacy', 'scikitlearn', 'tensorflow', 'textdatamining', 'vim']
+              'spacynlp', 'scikitlearn', 'tensorflow', 'textdatamining', 'vim']
 
 for category in subreddits:
     sub = reddit.subreddit(category)
