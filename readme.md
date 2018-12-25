@@ -25,5 +25,6 @@ Resources for studying DataOps based on the Linux operating system.
 # References
   - [hypervisor tech that powers the cloud](https://en.wikipedia.org/wiki/Hypervisor)
   - [12 factors app](https://12factor.net/) the philosohpy behind DevOps, and now, DataOps
-
+  - [ICANN - Internet Corporation for Assigned Names and Numbers](https://www.icann.org/resources/pages/beginners-guides-2012-03-06-en) This is where domain names come from.
+  - 
 
