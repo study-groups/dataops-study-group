@@ -1,5 +1,6 @@
 # dataops-study-group
-Resources for studying DataOps based on the Linux operating system.
+
+Chris Bergh's Medium article [DataOps is Not Just DevOps for Data](https://medium.com/data-ops/dataops-is-not-just-devops-for-data-6e03083157b7) serves as the foundation of this study.
 
 # Topics
 - [Scraping](./scraping)
@@ -26,5 +27,4 @@ Resources for studying DataOps based on the Linux operating system.
   - [hypervisor tech that powers the cloud](https://en.wikipedia.org/wiki/Hypervisor)
   - [12 factors app](https://12factor.net/) the philosohpy behind DevOps, and now, DataOps
   - [ICANN - Internet Corporation for Assigned Names and Numbers](https://www.icann.org/resources/pages/beginners-guides-2012-03-06-en) This is where domain names come from.
-  - 
 
