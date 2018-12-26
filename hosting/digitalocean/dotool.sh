@@ -26,8 +26,13 @@ dotool-keys(){
 
 dotool-list(){
   doctl compute droplet list \
+      --format "ID,Name,PublicIPv4,Volumes"
+}
+dotool-list-long(){
+  doctl compute droplet list \
       --format "ID,Name,Memory,Disk,Region,Features,Volumes"
 }
+
 
 dotool-create(){
   doctl compute droplet create $1 \
@@ -43,18 +48,18 @@ dotool-delete(){
 
 dotool-id-to-ip(){
   local id=$1
-  doctl compute droplet get $id\
+  doctl compute droplet get $id \
       --no-header \
       --format "Public IPv4"
 }
 
 dotool-name-to-ip(){
-  local id=$(dotool-list | grep $1 | awk '{print $1}')
+  local id=$(dotool-list | grep "$1 " | awk '{print $1}')
   echo $(dotool-id-to-ip $id)
 }
 
 dotool-login(){
-  ssh $1@$(dotool-name-to-ip $2)
+  ssh root@$(dotool-name-to-ip $1)
 }
 
 dotool-cp(){
