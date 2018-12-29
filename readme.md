@@ -16,7 +16,7 @@ Chris Bergh's Medium article [DataOps is Not Just DevOps for Data](https://mediu
 - [Digital Ocean Droplets](https://digitalocean.com)
   - [doctl repo w/ install instructions](https://github.com/digitalocean/doctl)
   - [doctl guide](https://www.digitalocean.com/community/tutorials/how-to-use-doctl-the-official-digitalocean-command-line-client)
-  -
+- [Google Data Studio](https://developers.google.com/datastudio/)
 - [AWS](https://aws.amazon.com/)
 
 # Podcasts
