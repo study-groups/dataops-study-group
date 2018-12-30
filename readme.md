@@ -6,9 +6,7 @@ Chris Bergh's Medium article [DataOps is Not Just DevOps for Data](https://mediu
 - [Scraping](./scraping)
 - [Hosting](./hosting)
 - [Ingestion](./ingestion)
-- Analysis
-- Delivery
-- Models in the cloud
+- [Model Containers](./containers).
 - Data warehousing
 - Data engineering
 
