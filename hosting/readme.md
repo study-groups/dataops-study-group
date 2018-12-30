@@ -1,6 +1,5 @@
 # Hosting for data pipeline development
 
-
 # Digital Ocean
  - [doctl](https://github.com/digitalocean/doctl) — command line tool for provisioning 
     Digital Ocean droplets
@@ -16,7 +15,6 @@
 - Mount: `mount -o loop, offset=OFFSET hda.img /mnt/partname`
 - Ready to use at `/mnt/partname`
 
-
 ## Provision checklist
 - create droplet with SSH key (not root login)
 - create SSH Public Key for user
@@ -25,6 +23,7 @@
 - create a username on new droplet
 - give publc keys to study group members
 
-
-# AWS
-- same as D.O.
+# Platforms
+- [Digital Ocean Droplets](https://digitalocean.com)
+- [Google Data Studio](https://developers.google.com/datastudio/)
+- [AWS](https://aws.amazon.com/)
