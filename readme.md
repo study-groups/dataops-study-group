@@ -7,8 +7,7 @@
 - [Scraping](./scraping)
 - [Ingestion](./ingestion)
 - [Modeling](./modeling)
-- [Indexing](./indexing)
-- [Presentation](./ui)
+- [UI](./ui)
 
 # Podcasts
 - [Defining DataOps with Chris Bergh ](https://overcast.fm/+H1YOCCBXM)
