@@ -7,11 +7,11 @@
 - [Scraping](./scraping)
 - [Ingestion](./ingestion)
 - [Modeling](./modeling)
-- [UI](./ui)
+- [Presentation](./presentation)
 
 # Podcasts
+- [Sofware Engineering Daily: DataOps with Chris Bergh](https://softwareengineeringdaily.com/2018/08/29/dataops-with-christopher-bergh/)
 - [Defining DataOps with Chris Bergh ](https://overcast.fm/+H1YOCCBXM)
-- [DataOps with Chris Bergh](https://softwareengineeringdaily.com/2018/08/29/dataops-with-christopher-bergh/)
 
 # References
   - [hypervisor tech that powers the cloud](https://en.wikipedia.org/wiki/Hypervisor)
