@@ -4,7 +4,7 @@
 - [Scraping](./scraping)
 - [Ingestion](./ingestion)
 - [Modeling](./modeling)
-- [delivery](./delivery)
+- [Delivery](./delivery)
 - [Presentation](./presentation)
 
 # Podcasts
