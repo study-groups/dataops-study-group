@@ -3,12 +3,12 @@
 Chris Bergh's Medium article [DataOps is Not Just DevOps for Data](https://medium.com/data-ops/dataops-is-not-just-devops-for-data-6e03083157b7) serves as the foundation of this study.
 
 # Topics
-- [Scraping](./scraping)
 - [Hosting](./hosting)
+- [Scraping](./scraping)
 - [Ingestion](./ingestion)
-- [Model Containers](./containers).
-- Data warehousing
-- Data engineering
+- [Modeling](./modeling)
+- [Indexing](./indexing)
+- [Presentation](./ui)
 
 # Platforms
 - [Digital Ocean Droplets](https://digitalocean.com)
