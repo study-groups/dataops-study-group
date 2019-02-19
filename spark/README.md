@@ -14,4 +14,4 @@ presentation.
 # Scala
 
 [scala-programming-guide](https://spark.apache.org/docs/0.9.1/scala-programming-guide.html). Spark was originally written
-in Scala which is the functional programming language that runs on the Java Runtime Machine.
+in Scala which is the functional programming language that runs on the Java Virtual Machine.
