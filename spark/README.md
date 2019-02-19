@@ -2,7 +2,7 @@
 
 ## Code examples
 
-[tbd](link/to/code)
+[Twitter example: currently broken](https://github.com/study-groups/dataops-study-group/tree/master/spark/twitter_example)
 
 ## Videos
 [Online Security Analytics on Large Scale Video Surveillance System](https://www.youtube.com/watch?v=DYarrIXTULY) 18 minute pipeline 
