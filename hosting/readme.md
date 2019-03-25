@@ -3,7 +3,7 @@
 # Digital Ocean
  - [doctl](https://github.com/digitalocean/doctl) — command line tool for provisioning 
     Digital Ocean droplets
- - [dotool.sh](https://github.com/study-groups/devops-study-group/digitalocean) — 
+ - [dotool.sh](https://github.com/study-groups/devops-study-group/tree/master/digitalocean) — 
     make doctl easier to work with.
 
 ## Secure backup a Linux volume over a network
